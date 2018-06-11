@@ -1,0 +1,4 @@
+services:
+    parking.car:
+        class: Parking\Car
+        public: true

@@ -9,4 +9,4 @@ $factory = new \Parking\ContainerFactory();
 
 $container = $factory->create(__DIR__ . '/../var/cache/container.php');
 
-var_dump($container->get('parking.car', true));
+var_dump($container->get('parking.car'));
